@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "main.exe",                                   // Output executable name
+                "main.cpp",                                   // Your source file
+                "-I", "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/vcpkg/vcpkg/installed/x64-windows/include", // Include path for PDCurses
+                "-L", "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/vcpkg/vcpkg/installed/x64-windows/lib",    // Library path for PDCurses
+                "-lpdcurses"                                  // Link PDCurses library
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

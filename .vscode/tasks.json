@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "main.exe",
+                "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/game Final/main.cpp", // Absolute path to main.cpp
+                "-I",
+                "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/vcpkg/vcpkg/installed/x64-windows/include",
+                "-L",
+                "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/vcpkg/vcpkg/installed/x64-windows/lib",
+                "-lpdcurses" // Ensure correct library name
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "options": {
+                "cwd": "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/game Final" // Set the correct working directory
+            }
+        }
+    ]
+}
