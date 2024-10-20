@@ -8,7 +8,7 @@
             "args": [
                 "-o",
                 "main.exe",
-                "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/game Final/main.cpp", // Absolute path to main.cpp
+                "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/main.cpp", // Absolute path to main.cpp
                 "-I",
                 "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/vcpkg/vcpkg/installed/x64-windows/include",
                 "-L",
@@ -21,7 +21,7 @@
             },
             "problemMatcher": ["$gcc"],
             "options": {
-                "cwd": "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2/game Final" // Set the correct working directory
+                "cwd": "C:/Users/safee/Desktop/WORk/Sem-3/DS/Assignments/Assignment-2" // Set the correct working directory
             }
         }
     ]
